@@ -53,22 +53,22 @@ footer{
 /*Begin your code here*/
 /*Keyframes for animation*/
 
-/* @-webkit-keyframes logo_wiggle{ */
+@-webkit-keyframes logo_wiggle{
   /*Your code here.*/
-  /* from {width: 25px;}
-  to {width: 420px;} */
+  from {width: 25px;}
+  to {width: 420px;}
 }
 
-/* @keyframes logo_wiggle{ */
+@keyframes logo_wiggle{
   /*Your code here.*/
-  /* from {width: 25px;}
-  to {width: 420px;} */
+  from {width: 25px;}
+  to {width: 420px;}
 } 
 
-/* #logo{ */
+#logo{
    /*Your code here.*/
-  /* animation-name: logo_wiggle;
-  animation-duration: 15s; */
+  animation-name: logo_wiggle;
+  animation-duration: 15s;
 }
 
 /* Cards! */
@@ -228,10 +228,10 @@ header{
 /*Add media query to handle reduced-motion*/
 
 
-/* @media screen and (prefers-reduced-motion: reduce){
+@media screen and (prefers-reduced-motion: reduce){
   #logo{
     animation: none;
-  } */
+  }
 }
 
 
